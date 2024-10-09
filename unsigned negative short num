@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+     short int num = 32769;
+    //int num =2147483647;
+    //num = -num;
+    printf("Size of the unsigned short int=%d\n", sizeof(num));
+    printf("value =%hi", num);
+
+    return 0;
+}
+//output//
+Size of the unsigned short int=2
+value =-32767
+
+=== Code Execution Successful ===
